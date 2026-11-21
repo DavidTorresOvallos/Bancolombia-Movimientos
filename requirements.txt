@@ -1,0 +1,4 @@
+patchright>=1.64
+psutil>=7.0
+requests>=2.32
+pyTelegramBotAPI>=4.30

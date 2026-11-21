@@ -1,0 +1,41 @@
+# ── Credenciales y secretos (NUNCA subir a git) ───────────────────
+config.py
+config_pruebas.py
+config_A.py
+config_B.py
+config_edge_respaldo.py
+configs_nodos/
+cuentas_pochonance.txt
+
+# ── Datos de usuarios registrados ─────────────────────────────────
+chats_id.json
+
+# ── Archivos locales / backups ─────────────────────────────────────
+pochonance.py
+Copia/
+_respaldo_actualizador/
+exportar_cuentas_excel.py
+prueba_render.py
+
+# ── Cache y artefactos de ejecucion ───────────────────────────────
+movimientos_cache/
+movimientos_diarios/
+logs/
+incidentes/
+__pycache__/
+*.pyc
+*.png
+*.html
+debug_*.txt
+error_*.png
+*.xlsx
+*.csv
+*.md
+*.lock
+*.log
+.stfolder/
+
+# ── Extensión de CapSolver: se sube entera, MENOS su config.js (lo genera el arranque con la key de config.py) ──
+# (el orden importa: la excepción va después de las reglas de arriba y config.js se vuelve a ignorar al final)
+!capsolver_extension/**
+capsolver_extension/assets/config.js
